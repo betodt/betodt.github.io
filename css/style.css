@@ -1,0 +1,32 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.side-nav {
+	width: 100px;
+}
+
+div nav ul li {
+	float: none;
+}
+
+div nav {
+	width: 100%;
+	padding: 2%;
+}
+
+div nav ul {
+	margin: 0 auto;
+	width: 100%;
+}
