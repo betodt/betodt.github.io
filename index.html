@@ -12,92 +12,142 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white z-depth-0" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo black-text center">Alberto<span class="hide-on-med-and-down"> Diaz-Tostado</span></a>
-      <ul class="right hide-on-small-only">
-        <li><a href="#"><i class="mdi mdi-linkedin-box black-text"></i></a></li>
-        <li><a href="#"><i class="mdi mdi-github-box black-text"></i></a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#"><i class="mdi mdi-linkedin-box black-text"></i></a></li>
-        <li><a href="#"><i class="mdi mdi-github-box black-text"></i></a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse black-text hide-on-med-and-up"><i class="material-icons">menu</i></a>
+  <header class="">
+    <div class="hide">
+      <nav class="light-blue lighten-2 z-depth-0" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="brand-logo white-text center">Alberto<span class="hide-on-small-only"> Diaz-Tostado</span></a>
+        </div>
+      </nav>
     </div>
-  </nav>
+    <a href="#" data-activates="mobile-nav" class="button-collapse btn-floating light-blue white-text hide-on-large-only"><i class="material-icons">menu</i></a>
+    <!-- Desktop nav -->
+    <ul class="side-nav fixed">
+      <li class="light-blue"><a id="logo-container" href="#" class="brand-logo white-text center"><i class="mdi mdi-image-filter-drama white-text"></i></a></li>
+      <li><a href="#skills" class="black-text">Skills</a></li>
+      <li><a href="#projects" class="black-text">Projects</a></li>
+      <li><a href="#experience" class="black-text">Experience</a></li>
+      <li><a href="#education" class="black-text">Education</a></li>
+      <li>
+        <a href="#" class="social-link"><i class="mdi mdi-linkedin-box light-blue-text"></i></a>
+        <a href="#" class="social-link"><i class="mdi mdi-github-box light-blue-text"></i></a>
+      </li>
+    </ul>
+    <!-- Mobile nav -->
+    <ul id="mobile-nav" class="side-nav">
+      <li class="light-blue"><a id="logo-container" href="#" class="brand-logo white-text center"><i class="mdi mdi-image-filter-drama white-text"></i></a></li>
+      <li><a href="#skills" class="black-text">Skills</a></li>
+      <li><a href="#projects" class="black-text">Projects</a></li>
+      <li><a href="#experience" class="black-text">Experience</a></li>
+      <li><a href="#education" class="black-text">Education</a></li>
+      <li>
+        <a href="#" class="social-link"><i class="mdi mdi-linkedin-box light-blue-text"></i></a>
+        <a href="#" class="social-link"><i class="mdi mdi-github-box light-blue-text"></i></a>
+      </li>
+    </ul>
+  </header><!-- /header -->
+  <main>
+    <div class="col s12 m10 z-depth-0">
+      <div class="section no-pad-bot light-blue lighten-2" id="index-banner">
+        <div class="container">
+          <br><br>
+          <h1 class="header center white-text">Alberto Diaz-Tostado</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          </div>
+          <div class="row center">
+            <a href="#!" id="download-button" class="btn-large waves-effect white black-text">Get Started</a>
+          </div>
+          <br><br>
 
-  <div class="row z-depth-0">
-  
-  <div class="col s12 m2 z-depth-0">
-          <nav class="white z-depth-0">
-            <ul class="left">
-              <li><a href="#!" class="black-text">Skills</a></li>
-              <li><a href="#!" class="black-text">Projects</a></li>
-              <li><a href="#!" class="black-text">Experience</a></li>
-              <li><a href="#!" class="black-text">Education</a></li>
-            </ul>
-          </nav>
-  </div>
-
-  <div class="col s12 m10 z-depth-0">
-    <div class="section no-pad-bot" id="index-banner">
-      <div class="container">
-        <br><br>
-        <h1 class="header center orange-text">Starter Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-        </div>
-        <br><br>
-
       </div>
-    </div>
 
+      <div id="skills" class="container scrollspy">
+        <div class="section">
 
-    <div class="container">
-      <div class="section">
-
-        <!--   Icon Section   -->
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center light-blue-text"><i class="mdi mdi-facebook-box"></i></h2>
-              <h5 class="center">Speeds up development</h5>
-
-              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          <!--   Icon Section   -->
+          <div class="row">
+            <div class="col s12">
+              <div class="icon-block">
+                <h2 class="center light-blue-text"><i class="mdi mdi-star-circle"></i></h2>
+                <h5 class="center">Skills</h5>
+                <div class="divider"></div>
+                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              </div>
             </div>
           </div>
 
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-              <h5 class="center">User Experience Focused</h5>
-
-              <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-              <h5 class="center">Easy to work with</h5>
-
-              <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-            </div>
-          </div>
         </div>
-
       </div>
-      <br><br>
 
+      <div class="divider"></div>
+
+      <div id="projects" class="container scrollspy">
+        <div class="section">
+
+          <!--   Icon Section   -->
+          <div class="row">
+            <div class="col s12">
+              <div class="icon-block">
+                <h2 class="center light-blue-text"><i class="mdi mdi-drawing-box"></i></h2>
+                <h5 class="center">Projects</h5>
+                <div class="divider"></div>
+                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
+
+      <div class="divider"></div>
+
+      <div id="experience" class="container scrollspy">
+        <div class="section">
+
+          <!--   Icon Section   -->
+          <div class="row">
+            <div class="col s12">
+              <div class="icon-block">
+                <h2 class="center light-blue-text"><i class="mdi mdi-briefcase"></i></h2>
+                <h5 class="center">Experience</h5>
+                <div class="divider"></div>
+                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div id="education" class="container scrollspy">
+        <div class="section">
+
+          <!--   Icon Section   -->
+          <div class="row">
+            <div class="col s12">
+              <div class="icon-block">
+                <h2 class="center light-blue-text"><i class="mdi mdi-school"></i></h2>
+                <h5 class="center">Education</h5>
+                <div class="divider"></div>
+                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
 
-  </div>
+  </main>
 
+  <footer>
+    
+  </footer>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

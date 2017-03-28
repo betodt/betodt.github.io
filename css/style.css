@@ -6,6 +6,17 @@
  * Made By MaterializeCSS.com
  */
 
+html, 
+body, 
+main,
+html body main > div,
+#skills, 
+#projects, 
+#experience, 
+#education  {
+	height: 100%;
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -13,20 +24,68 @@
 	font-size: inherit;
 }
 
-.side-nav {
-	width: 100px;
+.btn-floating {
+	position: absolute;
+	top: 10px;
+	left: 10px;
 }
 
-div nav ul li {
+i.mdi.mdi-image-filter-drama.white-text {
+	font-size: 4rem;
 	float: none;
+	line-height: initial;
 }
 
-div nav {
-	width: 100%;
-	padding: 2%;
+header ul.side-nav a.social-link {
+	float: left;
+	font-size: 2rem;
 }
 
-div nav ul {
-	margin: 0 auto;
-	width: 100%;
+header ul.side-nav a.social-link i {
+	margin: 0;
+}
+
+header, main, footer {
+	padding-left: 300px;
+}
+
+nav .nav-wrapper {
+	left: -150px;
+	transition: all .5s;
+}
+
+.side-nav li:not(:first-child):not(:last-child) a {
+	opacity: 0.5;
+}
+
+.side-nav li:hover, .side-nav li a {
+	transition: all .5s;
+}
+
+
+.side-nav li:not(:first-child):not(:last-child) a:hover, 
+.side-nav li:not(:first-child):not(:last-child) a.active {
+	background-color: initial;
+	font-size: 1.2rem;
+	opacity: 1;
+}
+
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	ul.side-nav li:first-child a {
+		line-height: 56px;
+		height: 56px;
+	}
+}
+
+@media only screen and (min-width : 601px) {
+	ul.side-nav li:first-child  a {
+		line-height: 64px;
+		height: 64px;
+	}
 }
