@@ -35,8 +35,8 @@
     });
 
     // window on scroll
-    $(window).scroll(function(event) {
-        var scrollHeight = $(window).scrollTop();
+    var onScroll = function(event) {
+        var scrollHeight = Math.floor($(window).scrollTop());
 
         var elmHeight = $('#index-banner').offset().top;
 
@@ -44,12 +44,16 @@
 
         var navHeight = $('header nav').height();
 
+        console.log(Math.abs(elmHeight - scrollHeight), elmSize - navHeight);
+
         if (Math.abs(elmHeight - scrollHeight) > elmSize - navHeight) {
-            $('header div.hide').removeClass('hide').addClass('navbar-fixed');
+            $('header div.hide').removeClass('hide');
         } else {
-            $('header div.navbar-fixed').removeClass('navbar-fixed').addClass('hide');
+            $('header div').addClass('hide');
         }
-    });
+    };
+
+    $(window).scroll(Materialize.throttle(onScroll, 100));
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space

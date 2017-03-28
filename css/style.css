@@ -51,6 +51,7 @@ header, main, footer {
 
 header .navbar-fixed {
 	transition: display .5s ease-in;
+	position: fixed;
 }
 
 .side-nav li:not(:first-child):not(:last-child) a {
