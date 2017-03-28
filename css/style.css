@@ -49,9 +49,8 @@ header, main, footer {
 	padding-left: 300px;
 }
 
-nav .nav-wrapper {
-	left: -150px;
-	transition: all .5s;
+header .navbar-fixed {
+	transition: display .5s ease-in;
 }
 
 .side-nav li:not(:first-child):not(:last-child) a {
@@ -87,5 +86,11 @@ nav .nav-wrapper {
 	ul.side-nav li:first-child  a {
 		line-height: 64px;
 		height: 64px;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	nav .nav-wrapper {
+		left: -150px;
 	}
 }

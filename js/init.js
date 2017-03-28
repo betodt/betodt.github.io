@@ -45,8 +45,9 @@
         var navHeight = $('header nav').height();
 
         if (Math.abs(elmHeight - scrollHeight) > elmSize - navHeight) {
-            $('#index-banner').addClass('hide');
             $('header div.hide').removeClass('hide').addClass('navbar-fixed');
+        } else {
+            $('header div.navbar-fixed').removeClass('navbar-fixed').addClass('hide');
         }
     });
 
