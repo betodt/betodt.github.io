@@ -9,11 +9,15 @@
 html, 
 body, 
 main,
-html body main > div,
+html body main > div {
+	height: 100%;
+}
+
+#skills, 
 #projects, 
 #experience, 
-#education  {
-	height: 100%;
+#education {
+	min-height: 100%;
 }
 
 .icon-block {
