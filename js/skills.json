@@ -1,0 +1,59 @@
+{
+  "chips": [
+    {
+	  "tag": "JavaScript",
+	  "icon": "language-javascript",
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus tellus, hendrerit eu ante eget, convallis molestie lectus. Aenean faucibus nunc vitae consequat dignissim. Duis eget massa convallis, luctus elit eu, pellentesque nibh. Quisque et nisl nec mi congue varius. Cras fermentum vehicula nisl, id maximus diam euismod et. Sed urna nisi, porttitor non purus vel, facilisis viverra velit. Cras consectetur sodales nulla sit amet blandit. Vivamus placerat sapien sapien, eget fermentum turpis cursus in. Integer dapibus tortor non sapien ullamcorper rhoncus. Donec enim lorem, ornare in ante ut, dapibus molestie nisi. Donec a massa dictum, mattis mi sed, sollicitudin enim. Aenean a enim lacinia, tincidunt arcu sit amet, maximus ligula. Nulla viverra ultricies est, at condimentum nisl feugiat vitae."
+    },
+    {
+	  "tag": "Angular",
+	  "icon": "angular",
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus tellus, hendrerit eu ante eget, convallis molestie lectus. Aenean faucibus nunc vitae consequat dignissim. Duis eget massa convallis, luctus elit eu, pellentesque nibh. Quisque et nisl nec mi congue varius. Cras fermentum vehicula nisl, id maximus diam euismod et. Sed urna nisi, porttitor non purus vel, facilisis viverra velit. Cras consectetur sodales nulla sit amet blandit. Vivamus placerat sapien sapien, eget fermentum turpis cursus in. Integer dapibus tortor non sapien ullamcorper rhoncus. Donec enim lorem, ornare in ante ut, dapibus molestie nisi. Donec a massa dictum, mattis mi sed, sollicitudin enim. Aenean a enim lacinia, tincidunt arcu sit amet, maximus ligula. Nulla viverra ultricies est, at condimentum nisl feugiat vitae."
+    },
+    {
+	  "tag": "React",
+	  "icon": "react",
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus tellus, hendrerit eu ante eget, convallis molestie lectus. Aenean faucibus nunc vitae consequat dignissim. Duis eget massa convallis, luctus elit eu, pellentesque nibh. Quisque et nisl nec mi congue varius. Cras fermentum vehicula nisl, id maximus diam euismod et. Sed urna nisi, porttitor non purus vel, facilisis viverra velit. Cras consectetur sodales nulla sit amet blandit. Vivamus placerat sapien sapien, eget fermentum turpis cursus in. Integer dapibus tortor non sapien ullamcorper rhoncus. Donec enim lorem, ornare in ante ut, dapibus molestie nisi. Donec a massa dictum, mattis mi sed, sollicitudin enim. Aenean a enim lacinia, tincidunt arcu sit amet, maximus ligula. Nulla viverra ultricies est, at condimentum nisl feugiat vitae."
+    },
+    {
+	  "tag": "HTML5",
+	  "icon": "language-html5",
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus tellus, hendrerit eu ante eget, convallis molestie lectus. Aenean faucibus nunc vitae consequat dignissim. Duis eget massa convallis, luctus elit eu, pellentesque nibh. Quisque et nisl nec mi congue varius. Cras fermentum vehicula nisl, id maximus diam euismod et. Sed urna nisi, porttitor non purus vel, facilisis viverra velit. Cras consectetur sodales nulla sit amet blandit. Vivamus placerat sapien sapien, eget fermentum turpis cursus in. Integer dapibus tortor non sapien ullamcorper rhoncus. Donec enim lorem, ornare in ante ut, dapibus molestie nisi. Donec a massa dictum, mattis mi sed, sollicitudin enim. Aenean a enim lacinia, tincidunt arcu sit amet, maximus ligula. Nulla viverra ultricies est, at condimentum nisl feugiat vitae."
+    },
+    {
+	  "tag": "CSS3",
+	  "icon": "language-css3",
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus tellus, hendrerit eu ante eget, convallis molestie lectus. Aenean faucibus nunc vitae consequat dignissim. Duis eget massa convallis, luctus elit eu, pellentesque nibh. Quisque et nisl nec mi congue varius. Cras fermentum vehicula nisl, id maximus diam euismod et. Sed urna nisi, porttitor non purus vel, facilisis viverra velit. Cras consectetur sodales nulla sit amet blandit. Vivamus placerat sapien sapien, eget fermentum turpis cursus in. Integer dapibus tortor non sapien ullamcorper rhoncus. Donec enim lorem, ornare in ante ut, dapibus molestie nisi. Donec a massa dictum, mattis mi sed, sollicitudin enim. Aenean a enim lacinia, tincidunt arcu sit amet, maximus ligula. Nulla viverra ultricies est, at condimentum nisl feugiat vitae."
+    },
+    {
+	  "tag": "Node.js",
+	  "icon": "nodejs",
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus tellus, hendrerit eu ante eget, convallis molestie lectus. Aenean faucibus nunc vitae consequat dignissim. Duis eget massa convallis, luctus elit eu, pellentesque nibh. Quisque et nisl nec mi congue varius. Cras fermentum vehicula nisl, id maximus diam euismod et. Sed urna nisi, porttitor non purus vel, facilisis viverra velit. Cras consectetur sodales nulla sit amet blandit. Vivamus placerat sapien sapien, eget fermentum turpis cursus in. Integer dapibus tortor non sapien ullamcorper rhoncus. Donec enim lorem, ornare in ante ut, dapibus molestie nisi. Donec a massa dictum, mattis mi sed, sollicitudin enim. Aenean a enim lacinia, tincidunt arcu sit amet, maximus ligula. Nulla viverra ultricies est, at condimentum nisl feugiat vitae."
+    },
+    {
+	  "tag": "PHP",
+	  "icon": "language-php",
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus tellus, hendrerit eu ante eget, convallis molestie lectus. Aenean faucibus nunc vitae consequat dignissim. Duis eget massa convallis, luctus elit eu, pellentesque nibh. Quisque et nisl nec mi congue varius. Cras fermentum vehicula nisl, id maximus diam euismod et. Sed urna nisi, porttitor non purus vel, facilisis viverra velit. Cras consectetur sodales nulla sit amet blandit. Vivamus placerat sapien sapien, eget fermentum turpis cursus in. Integer dapibus tortor non sapien ullamcorper rhoncus. Donec enim lorem, ornare in ante ut, dapibus molestie nisi. Donec a massa dictum, mattis mi sed, sollicitudin enim. Aenean a enim lacinia, tincidunt arcu sit amet, maximus ligula. Nulla viverra ultricies est, at condimentum nisl feugiat vitae."
+    },
+    {
+	  "tag": "C",
+	  "icon": "language-c",
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus tellus, hendrerit eu ante eget, convallis molestie lectus. Aenean faucibus nunc vitae consequat dignissim. Duis eget massa convallis, luctus elit eu, pellentesque nibh. Quisque et nisl nec mi congue varius. Cras fermentum vehicula nisl, id maximus diam euismod et. Sed urna nisi, porttitor non purus vel, facilisis viverra velit. Cras consectetur sodales nulla sit amet blandit. Vivamus placerat sapien sapien, eget fermentum turpis cursus in. Integer dapibus tortor non sapien ullamcorper rhoncus. Donec enim lorem, ornare in ante ut, dapibus molestie nisi. Donec a massa dictum, mattis mi sed, sollicitudin enim. Aenean a enim lacinia, tincidunt arcu sit amet, maximus ligula. Nulla viverra ultricies est, at condimentum nisl feugiat vitae."
+    },
+    {
+	  "tag": "C++",
+	  "icon": "language-cpp",
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus tellus, hendrerit eu ante eget, convallis molestie lectus. Aenean faucibus nunc vitae consequat dignissim. Duis eget massa convallis, luctus elit eu, pellentesque nibh. Quisque et nisl nec mi congue varius. Cras fermentum vehicula nisl, id maximus diam euismod et. Sed urna nisi, porttitor non purus vel, facilisis viverra velit. Cras consectetur sodales nulla sit amet blandit. Vivamus placerat sapien sapien, eget fermentum turpis cursus in. Integer dapibus tortor non sapien ullamcorper rhoncus. Donec enim lorem, ornare in ante ut, dapibus molestie nisi. Donec a massa dictum, mattis mi sed, sollicitudin enim. Aenean a enim lacinia, tincidunt arcu sit amet, maximus ligula. Nulla viverra ultricies est, at condimentum nisl feugiat vitae."
+    },
+    {
+	  "tag": "Git",
+	  "icon": "git",
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus tellus, hendrerit eu ante eget, convallis molestie lectus. Aenean faucibus nunc vitae consequat dignissim. Duis eget massa convallis, luctus elit eu, pellentesque nibh. Quisque et nisl nec mi congue varius. Cras fermentum vehicula nisl, id maximus diam euismod et. Sed urna nisi, porttitor non purus vel, facilisis viverra velit. Cras consectetur sodales nulla sit amet blandit. Vivamus placerat sapien sapien, eget fermentum turpis cursus in. Integer dapibus tortor non sapien ullamcorper rhoncus. Donec enim lorem, ornare in ante ut, dapibus molestie nisi. Donec a massa dictum, mattis mi sed, sollicitudin enim. Aenean a enim lacinia, tincidunt arcu sit amet, maximus ligula. Nulla viverra ultricies est, at condimentum nisl feugiat vitae."
+    },
+    {
+	  "tag": "NPM",
+	  "icon": "npm",
+	  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus tellus, hendrerit eu ante eget, convallis molestie lectus. Aenean faucibus nunc vitae consequat dignissim. Duis eget massa convallis, luctus elit eu, pellentesque nibh. Quisque et nisl nec mi congue varius. Cras fermentum vehicula nisl, id maximus diam euismod et. Sed urna nisi, porttitor non purus vel, facilisis viverra velit. Cras consectetur sodales nulla sit amet blandit. Vivamus placerat sapien sapien, eget fermentum turpis cursus in. Integer dapibus tortor non sapien ullamcorper rhoncus. Donec enim lorem, ornare in ante ut, dapibus molestie nisi. Donec a massa dictum, mattis mi sed, sollicitudin enim. Aenean a enim lacinia, tincidunt arcu sit amet, maximus ligula. Nulla viverra ultricies est, at condimentum nisl feugiat vitae."
+    }
+  ]
+}

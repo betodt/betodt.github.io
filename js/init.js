@@ -33,6 +33,16 @@
         $('a', this).removeClass('white-text');
         $('a', this).addClass('black-text');
     });
+    
+    $('header ul.side-nav li a.social-link').hover(function() {
+        $(this).addClass('light-blue lighten-2');
+        $('i', this).removeClass('black-text');
+        $('i', this).addClass('white-text');
+    }, function() {
+        $(this).removeClass('light-blue lighten-2');
+        $('i', this).removeClass('white-text');
+        $('i', this).addClass('black-text');
+    });
 
     // window on scroll
     var onScroll = function(event) {
@@ -44,7 +54,7 @@
 
         var navHeight = $('header nav').height();
 
-        console.log(Math.abs(elmHeight - scrollHeight), elmSize - navHeight);
+        // console.log(Math.abs(elmHeight - scrollHeight), elmSize - navHeight);
 
         if (Math.abs(elmHeight - scrollHeight) > elmSize - navHeight) {
             $('header div.hide').removeClass('hide');
@@ -54,6 +64,51 @@
     };
 
     $(window).scroll(Materialize.throttle(onScroll, 100));
+
+
+    /*  initialize skills */
+
+    // get skills from json file
+    $.getJSON('js/skills.json', function(json, textStatus) {
+        var chips = json.chips;
+        // create a chip for each skill
+        $.each(chips, function(index, el) {
+            // append new chip with given icon
+            // and define appropriate handlers
+            $('.chips').append(
+                $(document.createElement('div'))
+                    .addClass('chip')
+                    .text(el.tag)
+                    .append(
+                        $(document.createElement('i'))
+                            .addClass('close mdi mdi-' + el.icon)
+                            .click(function(event) {
+                                $(this).parent().trigger('click')
+                                event.preventDefault();
+                                event.stopPropagation();
+                            })
+                    )
+                    .click(function(event) {
+                        // clear current selected chip
+                        $('.chip').removeClass('selected');
+                        // select this chip
+                        $(this).addClass('selected');
+                        // fire selected event and pass in card
+                        var card = $(document.createElement('div')).addClass('card-panel').html('<h2 class="center light-blue-text"><i class="mdi mdi-' + el.icon + '"></i></h2><h5 class="center">' + el.tag + '</h5><p>' + el.text + '</p>');
+                        $(this).trigger('chip.select', card);
+                    })
+            )
+        });
+
+        // hide the input box, won't be used here
+        $('.chips-initial input').addClass('hide');
+
+        $('.chips').on('chip.select', function(event, card) {
+            event.preventDefault();
+            /* Act on the event */
+            $('.card-container').html(card);
+        });
+    });
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
