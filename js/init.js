@@ -105,9 +105,10 @@
 
         $('.chips').on('chip.select', function(event, card) {
             event.preventDefault();
-            /* Act on the event */
             $('.card-container').html(card);
         });
+
+        $('.chips .chip')[0].click();
     });
 
   }); // end of document ready
