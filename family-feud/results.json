@@ -1,0 +1,74 @@
+{
+  "Who's getting the drunkest?": [
+    ["Amy", 6],
+    ["Rahul", 3],
+    ["Sofia", 3],
+    ["Varshi", 1]
+  ],
+  "Who's falling asleep first?": [
+    ["Adithya", 9],
+    ["Amy", 3],
+    ["Beto", 1]
+  ],
+  "Who's going to end up crying?": [
+    ["Aurora", 7],
+    ["Sofia", 5],
+    ["Lori", 1]
+  ],
+  "Who talks the most shit in the group?": [
+    ["Rahul", 6],
+    ["Adi", 4],
+    ["Aurora", 1],
+    ["Joth", 1],
+    ["Adithya", 1]
+  ],
+  "Who's mostly likely to keep a secret?": [
+    ["Rahul", 5],
+    ["Joth", 2],
+    ["Ceci", 2]
+  ],
+  "Who's the bad influence?": [
+    ["Rahul", 6],
+    ["Sofia", 2],
+    ["Joth", 2]
+  ],
+  "Who's going to be the surprise life of the party?": [["Varshi", 3]],
+  "Who's getting arrested on this trip?": [
+    ["Rahul", 4],
+    ["Beto", 3],
+    ["Christian", 2],
+    ["Adi", 2]
+  ],
+  "Who's most likely to complain the most?": [
+    ["Adithya", 6],
+    ["Adi", 3],
+    ["Rahul", 2]
+  ],
+  "Who's staying in Scottsdale?": [["Rahul", 5]],
+  "What age did most of group lose your viriginity": [
+    ["17", 4],
+    ["19", 2]
+  ],
+  "Where did the group lose their virginity": [
+    ["Bedroom", 9],
+    ["Car", 2],
+    ["Hotel", 2]
+  ],
+  "How much is most of the group willing to spend on a date": [["$200", 5]],
+  "What qualities are most important in a significant other": [
+    ["Loyalty/Trust", 5],
+    ["Ambitious", 5],
+    ["Intelligent/Educated", 4],
+    ["Honesty", 4]
+  ],
+  "If you won 300k, what are you buying first": [
+    ["House/Down payment", 5],
+    ["Luxury Car", 3],
+    ["Savings", 2]
+  ],
+  "Name a place where you would find a date who's not interested in a serious relationship": [
+    ["Club/Bar", 7],
+    ["Dating apps", 3],
+    ["Cemetery", 1]
+  ]
+}
