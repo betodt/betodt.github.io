@@ -1,163 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Starter Template - Materialize</title>
+  <meta charset="UTF-8">
+  <title>CodePen - Family Feud</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css">
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <header class="">
-    <div class="navbar-fixed hide">
-      <nav class="light-blue lighten-2 z-depth-0" role="navigation">
-        <div class="nav-wrapper container">
-          <a id="logo-container" href="#" class="brand-logo white-text center">Alberto<span class="hide-on-small-only"> Diaz-Tostado</span></a>
-          <a href="#" data-activates="mobile-nav" class="button-collapse light-blue lighten-2 white-text hide-on-large-only"><i class="material-icons">menu</i></a>
-        </div>
-      </nav>
-    </div>
-    <a href="#" data-activates="mobile-nav" class="button-collapse btn-floating z-depth-0 light-blue lighten-2 white-text hide-on-large-only"><i class="material-icons">menu</i></a>
-    <!-- Desktop nav -->
-    <ul class="side-nav fixed">
-      <li class="light-blue"><a id="logo-container" href="#" class="brand-logo white-text center"><i class="mdi mdi-image-filter-drama white-text"></i></a></li>
-      <li><a href="#skills" class="black-text">Skills</a></li>
-      <li><a href="#projects" class="black-text">Projects</a></li>
-      <li><a href="#experience" class="black-text">Experience</a></li>
-      <li><a href="#education" class="black-text">Education</a></li>
-      <li>
-        <a href="#" class="social-link"><i class="mdi mdi-linkedin-box black-text"></i></a>
-        <a href="#" class="social-link"><i class="mdi mdi-github-box black-text"></i></a>
-        <a href="#" class="social-link"><i class="mdi mdi-gmail black-text"></i></a>
-      </li>
-    </ul>
-    <!-- Mobile nav -->
-    <ul id="mobile-nav" class="side-nav">
-      <li class="light-blue"><a id="logo-container" href="#" class="brand-logo white-text center"><i class="mdi mdi-image-filter-drama white-text"></i></a></li>
-      <li><a href="#skills" class="black-text">Skills</a></li>
-      <li><a href="#projects" class="black-text">Projects</a></li>
-      <li><a href="#experience" class="black-text">Experience</a></li>
-      <li><a href="#education" class="black-text">Education</a></li>
-      <li>
-        <a href="#" class="social-link"><i class="mdi mdi-linkedin-box black-text"></i></a>
-        <a href="#" class="social-link"><i class="mdi mdi-github-box black-text"></i></a>
-        <a href="#" class="social-link"><i class="mdi mdi-gmail black-text"></i></a>
-      </li>
-    </ul>
-  </header><!-- /header -->
-  <main>
-    <div class="col s12 m10 z-depth-0">
-      <div class="section no-pad-bot light-blue lighten-2" id="index-banner">
-        <div class="container">
-          <br><br>
-          <h1 class="header center white-text">Alberto Diaz-Tostado</h1>
-          <div class="row center">
-            <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-          </div>
-          <div class="row center">
-            <a href="#!" id="download-button" class="btn-large waves-effect white black-text">Get Started</a>
-          </div>
-          <br><br>
+<!-- partial:index.partial.html -->
 
-        </div>
-      </div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js'></script><script  src="./script.js"></script>
 
-      <div id="skills" class="container scrollspy">
-        <div class="section">
-
-          <!--   Icon Section   -->
-          <div class="row">
-            <div class="col s12">
-              <div class="icon-block">
-                <h2 class="center light-blue-text"><i class="mdi mdi-star-circle"></i></h2>
-                <h5 class="center">Skills</h5>
-                <div class="divider"></div>
-                <br>
-                <div class="chips chips-initial"></div>
-                <div class="card-container"></div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="divider"></div>
-
-      <div id="projects" class="container scrollspy">
-        <div class="section">
-
-          <!--   Icon Section   -->
-          <div class="row">
-            <div class="col s12">
-              <div class="icon-block">
-                <h2 class="center light-blue-text"><i class="mdi mdi-drawing-box"></i></h2>
-                <h5 class="center">Projects</h5>
-                <div class="divider"></div>
-                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="divider"></div>
-
-      <div id="experience" class="container scrollspy">
-        <div class="section">
-
-          <!--   Icon Section   -->
-          <div class="row">
-            <div class="col s12">
-              <div class="icon-block">
-                <h2 class="center light-blue-text"><i class="mdi mdi-briefcase"></i></h2>
-                <h5 class="center">Experience</h5>
-                <div class="divider"></div>
-                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="divider"></div>
-
-      <div id="education" class="container scrollspy">
-        <div class="section">
-
-          <!--   Icon Section   -->
-          <div class="row">
-            <div class="col s12">
-              <div class="icon-block">
-                <h2 class="center light-blue-text"><i class="mdi mdi-school"></i></h2>
-                <h5 class="center">Education</h5>
-                <div class="divider"></div>
-                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-
-  </main>
-
-  <footer>
-    
-  </footer>
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
+</body>
 </html>
