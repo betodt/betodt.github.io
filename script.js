@@ -1,7 +1,7 @@
 var app = {
   version: 1,
   currentQ: 0,
-  jsonFile:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/40041/FF3.json",
+  jsonFile:"./results.json",
   board: $("<div class='gameBoard'>"+
            
              "<!--- Scores --->"+
@@ -44,7 +44,7 @@ var app = {
     console.clear()
     app.allData   = data
     app.questions = Object.keys(data)
-    app.shuffle(app.questions)
+    // app.shuffle(app.questions)
     app.makeQuestion(app.currentQ)
     $('body').append(app.board)
   },
