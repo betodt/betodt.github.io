@@ -10,4 +10,4 @@ npm run dev
 npm run build
 ```
 
-The site is static-first and deploys to GitHub Pages via the workflow in `.github/workflows/deploy.yml`. The `public/.nojekyll` marker is copied into Astro's `dist/` output so GitHub Pages serves the uploaded static files directly instead of trying to rebuild them with Jekyll.
+The site is static-first and deploys to GitHub Pages via the workflow in `.github/workflows/deploy.yml`. The `public/.nojekyll` marker is copied into Astro's `dist/` output so GitHub Pages serves the uploaded static files directly instead of trying to rebuild them with Jekyll. A root `.nojekyll` marker is also committed so a branch-based Pages source will skip Jekyll instead of trying to parse Astro component front matter.
