@@ -1,0 +1,84 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1273 >>
+stream
+BT
+/F1 18 Tf
+72 760 Td
+22 TL
+(Alberto Diaz-Tostado) Tj
+/F1 11 Tf
+T*
+(Senior Software Engineer, Growth | Product Engineer) Tj
+T*
+() Tj
+T*
+(Product engineer building growth experiences and the platform foundations behind them.) Tj
+T*
+() Tj
+T*
+(Experience) Tj
+T*
+(Databricks - Senior Software Engineer, Growth \(2023-Present\)) Tj
+T*
+(- Focused on Free Edition product experience, onboarding, and lowering the barrier to entry.) Tj
+T*
+(- Reduced latency by up to 15% across multiple high-visibility workflows through a platform-level solution.) Tj
+T*
+(- Built GraphQL-based data fetching and static asset infrastructure across product surfaces.) Tj
+T*
+() Tj
+T*
+(Clari - Engineering Manager / Senior Software Engineer \(2018-2023\)) Tj
+T*
+(- Founded and led the Frontend Infrastructure team.) Tj
+T*
+(- Built reusable components, shared tooling, a design system, and a GraphQL service layer.) Tj
+T*
+(- Led adoption of GraphQL and React hooks.) Tj
+T*
+() Tj
+T*
+(Santa Clara University - Adjunct Lecturer \(2018-2022\)) Tj
+T*
+(- Taught web programming.) Tj
+T*
+() Tj
+T*
+(E*TRADE - Software Engineer \(2017-2019\)) Tj
+T*
+() Tj
+T*
+(Skills) Tj
+T*
+(JavaScript, TypeScript, React, GraphQL, Apollo Client, Next.js, Redux, SQL, Scala,) Tj
+T*
+(Testing libraries, HTML/CSS, Prometheus) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000115 00000 n
+0000000241 00000 n
+0000000311 00000 n
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1636
+%%EOF
