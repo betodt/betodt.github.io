@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FAF8F4"/>
+  <circle cx="1000" cy="40" r="380" fill="#2563EB" fill-opacity="0.12"/>
+  <rect x="84" y="84" width="1032" height="462" rx="36" fill="#FFFFFF" stroke="#DFDAD1"/>
+  <text x="132" y="170" fill="#2563EB" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="5">ALBERTO DIAZ-TOSTADO</text>
+  <text x="132" y="280" fill="#141821" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="700">Product engineer</text>
+  <text x="132" y="365" fill="#141821" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="700">building growth</text>
+  <text x="132" y="450" fill="#5B6576" font-family="Inter, Arial, sans-serif" font-size="38">Growth experiences and the platform foundations behind them.</text>
+</svg>

@@ -1,0 +1,44 @@
+<button
+  id="theme-toggle"
+  class="focus-ring inline-flex items-center gap-2 border border-border bg-surface px-3 py-2 text-sm font-medium text-muted transition hover:border-accent/50 hover:text-text"
+  type="button"
+  aria-label="Toggle color theme"
+>
+  <span aria-hidden="true" id="theme-icon">◐</span>
+  <span id="theme-label">System</span>
+</button>
+
+<script is:inline>
+  const storageKey = 'theme-preference';
+  const button = document.getElementById('theme-toggle');
+  const label = document.getElementById('theme-label');
+  const icon = document.getElementById('theme-icon');
+  const media = window.matchMedia('(prefers-color-scheme: dark)');
+  const themes = ['system', 'light', 'dark'];
+
+  function storedPreference() {
+    return localStorage.getItem(storageKey) || 'system';
+  }
+
+  function resolvedTheme(preference) {
+    return preference === 'system' ? (media.matches ? 'dark' : 'light') : preference;
+  }
+
+  function applyTheme(preference) {
+    const resolved = resolvedTheme(preference);
+    document.documentElement.dataset.theme = resolved;
+    document.documentElement.classList.toggle('dark', resolved === 'dark');
+    label.textContent = preference.charAt(0).toUpperCase() + preference.slice(1);
+    icon.textContent = preference === 'system' ? '◐' : preference === 'dark' ? '☾' : '☼';
+  }
+
+  button?.addEventListener('click', () => {
+    const current = storedPreference();
+    const next = themes[(themes.indexOf(current) + 1) % themes.length];
+    localStorage.setItem(storageKey, next);
+    applyTheme(next);
+  });
+
+  media.addEventListener('change', () => applyTheme(storedPreference()));
+  applyTheme(storedPreference());
+</script>

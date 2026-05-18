@@ -1,0 +1,36 @@
+---
+const links = [
+  { href: '#experience', label: 'Experience' },
+  { href: '#work', label: 'Work' },
+  { href: '/resume.pdf', label: 'Resume' },
+  { href: 'https://www.linkedin.com/in/betodt/', label: 'LinkedIn' },
+  { href: 'https://github.com/betodt', label: 'GitHub' },
+];
+---
+<section class="relative overflow-hidden py-24 sm:py-32">
+  <div class="absolute inset-x-0 top-0 -z-10 h-64 bg-[radial-gradient(circle_at_top_left,rgb(var(--color-accent)/0.18),transparent_38rem)]"></div>
+  <p class="section-label">Alberto Diaz-Tostado</p>
+  <div class="mt-6 max-w-5xl">
+    <h1 class="text-balance text-5xl font-semibold tracking-[-0.04em] text-text sm:text-7xl lg:text-8xl">
+      Product engineer building growth experiences and the platform foundations behind them.
+    </h1>
+    <p class="mt-8 max-w-3xl text-pretty text-xl leading-8 text-muted">
+      I’m Alberto Diaz-Tostado, a Senior Software Engineer on the Growth team at Databricks. I work on Free Edition, user onboarding, and the systems that help teams ship better product experiences.
+    </p>
+  </div>
+  <div class="mt-10 flex flex-wrap gap-3">
+    {links.map((link, index) => (
+      <a
+        class:list={[
+          'focus-ring inline-flex items-center rounded-full px-5 py-3 text-sm font-semibold transition',
+          index === 0 ? 'bg-text text-canvas hover:bg-accent' : 'border border-border bg-surface text-text hover:border-accent/60 hover:text-accent',
+        ]}
+        href={link.href}
+        target={link.href.startsWith('http') ? '_blank' : undefined}
+        rel={link.href.startsWith('http') ? 'noreferrer' : undefined}
+      >
+        {link.label}
+      </a>
+    ))}
+  </div>
+</section>

@@ -1,0 +1,35 @@
+---
+const capabilities = [
+  {
+    title: 'Growth product engineering',
+    body: 'I build onboarding and activation experiences with a close eye on user intent, product clarity, and the systems needed to iterate safely.',
+  },
+  {
+    title: 'Platform foundations',
+    body: 'I look for shared layers—data fetching, static assets, performance paths, and tooling—that make good product work easier to repeat.',
+  },
+  {
+    title: 'Frontend architecture',
+    body: 'I design React, TypeScript, GraphQL, and UI foundations that keep product surfaces fast, consistent, and maintainable as teams grow.',
+  },
+  {
+    title: 'Technical leadership',
+    body: 'I lead through hands-on implementation, mentorship, design reviews, and pragmatic direction that helps teams make durable technical choices.',
+  },
+];
+---
+<section id="what-i-do" class="py-16 sm:py-24">
+  <div class="max-w-3xl">
+    <p class="section-label">What I do</p>
+    <h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Product work with architectural leverage.</h2>
+    <p class="mt-5 text-lg leading-8 text-muted">My best work sits between product experience and engineering systems: understanding the user journey, then building the platform pieces that help teams move faster without lowering quality.</p>
+  </div>
+  <div class="mt-10 grid gap-4 md:grid-cols-2">
+    {capabilities.map((capability) => (
+      <article class="card p-6 transition hover:-translate-y-0.5 hover:border-accent/40">
+        <h3 class="text-xl font-semibold tracking-tight">{capability.title}</h3>
+        <p class="mt-3 leading-7 text-muted">{capability.body}</p>
+      </article>
+    ))}
+  </div>
+</section>
