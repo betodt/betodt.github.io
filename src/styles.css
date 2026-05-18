@@ -24,6 +24,8 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  scroll-snap-type: y proximity;
   background: rgb(var(--color-canvas));
 }
 
@@ -34,6 +36,22 @@ body {
 
 ::selection {
   background: rgb(var(--color-accent) / 0.2);
+}
+
+main > section {
+  scroll-margin-top: 5.5rem;
+  scroll-snap-align: start;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+    scroll-snap-type: none;
+  }
+
+  main > section {
+    scroll-snap-align: none;
+  }
 }
 
 .focus-ring {
