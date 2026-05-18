@@ -1,0 +1,20 @@
+---
+const links = [
+  { href: 'mailto:alberto.diaztostado@gmail.com', label: 'Email' },
+  { href: 'https://www.linkedin.com/in/betodt/', label: 'LinkedIn' },
+  { href: 'https://github.com/betodt', label: 'GitHub' },
+  { href: '/resume.pdf', label: 'Resume' },
+];
+---
+<section id="contact" class="py-16 sm:py-24">
+  <div class="card p-8 sm:p-12">
+    <p class="section-label">Contact</p>
+    <h2 class="mt-4 max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl">Want to talk about growth product engineering, frontend architecture, or platform foundations?</h2>
+    <p class="mt-5 max-w-2xl text-lg leading-8 text-muted">I’m always glad to compare notes with product-minded engineers, design partners, and teams working on systems that make software feel better to use.</p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      {links.map((link) => (
+        <a class="focus-ring inline-flex rounded-full border border-border bg-canvas px-5 py-3 text-sm font-semibold text-text transition hover:border-accent/60 hover:text-accent" href={link.href} target={link.href.startsWith('http') ? '_blank' : undefined} rel={link.href.startsWith('http') ? 'noreferrer' : undefined}>{link.label}</a>
+      ))}
+    </div>
+  </div>
+</section>

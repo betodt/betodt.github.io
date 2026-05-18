@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --color-canvas: 250 248 244;
+  --color-surface: 255 255 253;
+  --color-text: 20 24 33;
+  --color-muted: 91 101 118;
+  --color-border: 223 218 209;
+  --color-accent: 37 99 235;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --color-canvas: 13 18 28;
+  --color-surface: 21 28 40;
+  --color-text: 239 244 250;
+  --color-muted: 160 173 192;
+  --color-border: 49 60 78;
+  --color-accent: 96 165 250;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: rgb(var(--color-canvas));
+}
+
+body {
+  @apply min-h-screen bg-canvas text-text antialiased;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+::selection {
+  background: rgb(var(--color-accent) / 0.2);
+}
+
+.focus-ring {
+  @apply rounded-full outline-none ring-offset-2 ring-offset-canvas focus-visible:ring-2 focus-visible:ring-accent;
+}
+
+.section-label {
+  @apply text-sm font-semibold uppercase tracking-[0.2em] text-accent;
+}
+
+.card {
+  @apply rounded-3xl border border-border/80 bg-surface/75 shadow-soft backdrop-blur;
+}
